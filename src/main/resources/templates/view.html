@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>View Data</title>
+</head>
+<body>
+<h1>Saved Text</h1>
+
+<ul>
+    <li th:each="item : ${items}" th:text="${item.content}"></li>
+</ul>
+
+<a href="/" id="homeLink">Back</a>
+</body>
+</html>

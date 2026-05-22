@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Text App</title>
+</head>
+<body>
+<h1>Text App</h1>
+
+<form action="/save" method="post">
+    <input type="text" name="content" id="content"/>
+    <button type="submit" id="saveBtn">Save</button>
+</form>
+
+<a href="/view" id="viewLink">View All</a>
+</body>
+</html>
